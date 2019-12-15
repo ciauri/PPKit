@@ -8,8 +8,7 @@
 import Foundation
 
 public struct PPKStructure: Linkable {
-    let links: [String:URL]
-
+    public let links: [String:URL]
     public let id: String
     public let name: String
     public let capacity: Int

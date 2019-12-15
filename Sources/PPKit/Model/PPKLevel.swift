@@ -8,8 +8,7 @@
 import Foundation
 
 public struct PPKLevel: Linkable {
-    let links: [String : URL]
-    
+    public let links: [String : URL]
     public let id: String
     public let structureID: String
     public let name: String
