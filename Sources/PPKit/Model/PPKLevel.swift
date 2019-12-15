@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct PPKLevel: Linkable {
+public struct PPKLevel: Codable, Linkable {
     public let links: [String : URL]
     public let id: String
     public let structureID: String

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct PPKSpotCount {
+public struct PPKSpotCount: Codable {
     public let id: UUID
     public let levelID: String
     public let availableSpots: Int
