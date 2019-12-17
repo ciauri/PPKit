@@ -12,4 +12,11 @@ public struct PPKSpotCount: Codable {
     public let levelID: String
     public let availableSpots: Int
     public let timestamp: Date
+    
+    public init(levelID: String, spots: Int, timestamp: Date) {
+        id = UUID()
+        self.levelID = levelID
+        self.availableSpots = spots
+        self.timestamp = timestamp
+    }
 }
